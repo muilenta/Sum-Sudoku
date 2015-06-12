@@ -1,0 +1,4 @@
+http://appdeveloper.intel.com/en-us/article/application-readiness-checklist
+http://appdeveloper.intel.com/en-us/article/application-submission-checklist
+http://appdeveloper.intel.com/en-us/article/packaging-requirements
+add merge modules to setup and dep:    http://appdeveloper.intel.com/en-us/blog/2009/12/24/crt-runtime-policy-merge-modules-visual-studio-2008-package-and-deployment

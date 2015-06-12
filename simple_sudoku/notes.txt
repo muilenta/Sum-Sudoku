@@ -1,0 +1,335 @@
+the pen radio button currently removes the cursor
+
+align textbox text to the right?  I could use  "dynamic_cast<TextBox^>" again
+
+Set the focus button to start, so that the game starts on hitting enter
+
+no restart lv 1
+   
+Add a help button that explains how to play
+
+Add a differnt finish screen for the Demo?
+
+For level select, enter should hit ok
+
+backspace should always delete
+
+
+June 21st 2012: I removed adpcpp and addcppf or something, as these files are no longer part of the
+c++ appup developer install.  There is now one called intel.adp.dll, but I'm not sure how it works.  I 
+pointed to it as the path rather than the old appup atom dev folder
+
+App signing:
+Reqest a certificate from comodo (gotta use the same machine and browser)
+they call you and get some docs
+download the cert to firefox
+export it (backup all)
+run the microsoft signing app
+	sign
+	verify
+	timestamp
+	
+	
+	
+Console output:	
+	
+05/13/2010  10:26 PM            32,584 Event.dll
+05/13/2010  10:44 PM           203,088 evrprop.dll
+05/13/2010  10:44 PM            14,672 ExtidGen.Exe
+05/13/2010  10:44 PM            89,424 fdbrowser.exe
+05/13/2010  10:26 PM           439,136 FileTypeVerifier.exe
+05/13/2010  10:44 PM            88,400 filtdump.exe
+05/13/2010  10:44 PM            19,792 FiltReg.exe
+05/13/2010  10:54 PM           104,272 FUSLOGVW.exe
+06/20/2012  05:13 PM    <DIR>          FXCop
+05/13/2010  10:54 PM           103,248 gacutil.exe
+04/19/2010  08:36 PM               181 gacutil.exe.config
+05/13/2010  10:44 PM            73,024 gc.exe
+05/13/2010  10:44 PM           128,856 genmanifest.exe
+05/13/2010  10:44 PM           221,008 graphedt.exe
+05/13/2010  10:26 PM            28,496 guidgen.exe
+05/13/2010  10:44 PM            70,992 ifilttst.exe
+04/19/2010  08:36 PM             1,181 IFiltTst.ini
+05/13/2010  10:54 PM           382,792 ildasm.exe
+04/19/2010  08:36 PM               181 ildasm.exe.config
+05/13/2010  10:26 PM           168,784 Inspect.exe
+04/19/2010  08:36 PM               596 isvtier5appsigningprivkey.dat
+04/19/2010  08:36 PM               148 isvtier5appsigningpubkey.dat
+04/19/2010  08:36 PM            21,234 isvtier5appsignsdk.cc
+04/19/2010  08:36 PM             4,916 isvtier5appsignsdk.xml
+04/19/2010  08:36 PM            56,994 isvtier5appsignsdk_client.xml
+05/13/2010  10:26 PM           210,760 isXPS.exe
+05/13/2010  10:26 PM           429,904 isXPShlp.dll
+05/13/2010  10:26 PM           163,664 IViewers.Dll
+04/19/2010  08:36 PM            46,064 lc.exe
+04/19/2010  08:36 PM               144 LC.exe.config
+04/19/2010  08:36 PM            78,840 mage.exe
+04/19/2010  08:36 PM           463,864 mageui.exe
+05/13/2010  10:26 PM           120,656 make-shell.exe
+05/13/2010  10:26 PM            26,448 MakeCat.Exe
+05/13/2010  10:26 PM            55,632 makecert.exe
+04/19/2010  08:36 PM            24,034 mc.chm
+05/13/2010  10:44 PM           650,048 MC.Exe
+04/19/2010  08:36 PM           111,608 Mdbg.exe
+05/13/2010  10:54 PM           373,584 MdbgCore.dll
+05/13/2010  10:54 PM           102,224 MdbgDis.dll
+05/13/2010  10:26 PM           167,760 MergeMod.Dll
+05/13/2010  10:44 PM           505,680 MFDetours.dll
+05/13/2010  10:44 PM           288,080 MFTrace.exe
+04/19/2010  08:36 PM             4,598 MFTrace.xml
+04/19/2010  08:36 PM            25,608 mgmtclassgen.exe
+05/13/2010  10:26 PM            87,880 Midl.Exe
+05/13/2010  10:26 PM           845,128 MidlC.Exe
+05/13/2010  10:26 PM            81,224 mpatch.exe
+05/13/2010  10:54 PM           502,608 msdis160.dll
+04/19/2010  08:36 PM             2,184 msi.adm
+05/13/2010  10:26 PM            73,552 MsiCert.exe
+05/13/2010  10:26 PM           154,440 MsiDb.Exe
+05/13/2010  10:26 PM            72,528 MsiFiler.Exe
+05/13/2010  10:26 PM            98,128 MsiInfo.Exe
+05/13/2010  10:26 PM            64,336 MsiMerg.Exe
+05/13/2010  10:26 PM            66,888 MsiMsp.Exe
+06/20/2012  05:10 PM    <DIR>          msitools
+05/13/2010  10:26 PM            66,896 MsiTran.Exe
+05/13/2010  10:26 PM         1,502,208 MsiVal2.Msi
+05/13/2010  10:26 PM           111,944 MsiZap.Exe
+05/13/2010  10:26 PM            68,944 mspatchc.dll
+04/19/2010  08:36 PM               276 msrootpub1.dat
+04/19/2010  08:36 PM               276 msrootpub2.dat
+05/13/2010  10:26 PM           883,008 mt.exe
+04/19/2010  08:36 PM               373 mt.exe.config
+05/13/2010  10:44 PM           125,768 MUIRCT.EXE
+06/20/2012  05:10 PM    <DIR>          NETFX 4.0 Tools
+05/13/2010  10:26 PM           188,752 OleView.Exe
+05/13/2010  10:26 PM         2,301,952 Orca.Msi
+05/13/2010  10:26 PM           280,400 patchwiz.dll
+05/13/2010  10:54 PM            76,112 PEVerify.exe
+04/19/2010  08:36 PM               181 PEVerify.exe.config
+05/13/2010  10:26 PM            21,840 pktextract.exe
+05/13/2010  10:44 PM           378,192 proppage.dll
+05/13/2010  10:26 PM           355,664 PTConform.dll
+05/13/2010  10:44 PM           367,440 ptconform.exe
+05/13/2010  10:26 PM            24,912 pvk2pfx.exe
+05/13/2010  10:44 PM            68,416 RC.Exe
+05/13/2010  10:44 PM           331,080 RcDll.Dll
+05/13/2010  10:26 PM            55,112 ReBase.Exe
+05/13/2010  10:54 PM            59,208 ResGen.exe
+04/19/2010  08:36 PM               152 ResGen.exe.config
+05/13/2010  10:44 PM           137,040 sddlgen.exe
+04/27/2010  07:52 PM            25,317 SetEnv.Cmd
+05/13/2010  10:26 PM            22,856 SetReg.Exe
+05/13/2010  10:54 PM            51,016 sgen.exe
+04/19/2010  08:36 PM               156 sgen.exe.config
+05/13/2010  10:26 PM           237,392 signtool.exe
+05/13/2010  10:54 PM            95,552 sn.exe
+04/19/2010  08:36 PM               181 sn.exe.config
+05/13/2010  10:54 PM            42,832 SoapSuds.exe
+04/19/2010  08:36 PM               278 SoapSuds.exe.config
+05/13/2010  10:54 PM            18,776 SoapSudsCode.dll
+05/13/2010  10:44 PM            19,792 SpOrder.Dll
+05/13/2010  10:44 PM            24,400 SpOrder.Exe
+05/13/2010  10:54 PM           292,688 SqlMetal.exe
+04/19/2010  08:36 PM               156 SqlMetal.exe.config
+04/19/2010  08:49 PM            74,119 StartTools.htm
+04/19/2010  08:36 PM            41,984 StoreAdm.exe
+04/04/2009  03:59 AM            63,820 SvcConfigEditor.chm
+05/13/2010  10:54 PM         2,103,136 SvcConfigEditor.exe
+04/19/2010  08:36 PM               151 SvcConfigEditor.exe.config
+04/04/2009  03:59 AM            60,421 SvcTraceViewer.chm
+05/13/2010  10:54 PM           706,392 SvcTraceViewer.exe
+04/19/2010  08:36 PM               151 SvcTraceViewer.exe.config
+05/13/2010  10:54 PM           194,384 SvcUtil.exe
+04/19/2010  08:36 PM               151 SvcUtil.exe.config
+05/13/2010  10:44 PM           217,416 TB3x.exe
+05/13/2010  10:26 PM            89,944 tcpanalyzer.exe
+04/19/2010  08:36 PM               942 tcpanalyzer.exe.manifest
+05/13/2010  10:26 PM           222,032 tedutil.dll
+05/13/2010  10:54 PM            59,208 TlbExp.exe
+05/13/2010  10:54 PM            67,400 TlbImp.exe
+04/19/2010  08:36 PM               144 TlbImp.exe.config
+05/13/2010  10:26 PM           126,288 topoedit.exe
+05/13/2010  10:44 PM           444,240 tracefmt.exe
+05/13/2010  10:44 PM            41,808 tracepdb.exe
+05/13/2010  10:44 PM           180,048 tracewpp.exe
+04/19/2010  08:36 PM             3,876 TranscodeProfiles.xml
+06/20/2012  05:11 PM    <DIR>          TSPDesigner
+05/13/2010  10:44 PM           342,344 UICC.exe
+04/19/2010  08:36 PM            42,852 UICC.xsd
+05/13/2010  10:44 PM         2,749,776 UICCDLL.dll
+05/13/2010  10:44 PM            27,984 utl2idl.exe
+05/13/2010  10:26 PM            18,256 Uuidgen.Exe
+05/13/2010  10:44 PM            30,544 validatesd.exe
+05/13/2010  10:26 PM            60,768 VirtualLightSensor.exe
+05/13/2010  10:26 PM             7,501 VirtualLightSensorDriver.cat
+05/13/2010  10:26 PM            29,040 VirtualLightSensorDriver.dll
+04/19/2010  08:36 PM             2,625 VirtualLightSensorDriver.inf
+06/20/2012  05:11 PM    <DIR>          vsstools
+05/13/2010  10:54 PM            55,112 WCA.exe
+04/19/2010  08:36 PM               151 WCA.exe.config
+05/13/2010  10:54 PM            59,208 WFC.exe
+04/19/2010  08:36 PM             1,851 WFC.exe.config
+05/13/2010  10:26 PM           325,456 WiLogUtl.exe
+04/19/2010  08:36 PM            27,344 windiff.chm
+05/13/2010  10:26 PM           186,704 WinDiff.Exe
+04/19/2010  08:36 PM           152,568 WinRes.exe
+05/13/2010  10:26 PM           239,432 wsatui.dll
+04/19/2010  08:36 PM           378,720 wsdcodegen.exe
+05/13/2010  10:44 PM            72,032 wsddebug_client.exe
+05/13/2010  10:44 PM            69,464 wsddebug_host.exe
+05/13/2010  10:54 PM            87,880 wsdl.exe
+04/19/2010  08:36 PM               278 wsdl.exe.config
+04/19/2010  08:36 PM             4,217 WsTrace.bat
+05/13/2010  10:44 PM            35,160 WsTraceDump.exe
+05/13/2010  10:44 PM           374,600 Wsutil.exe
+05/13/2010  10:44 PM         1,009,496 wsutilhelper.dll
+06/20/2012  05:13 PM    <DIR>          x64
+05/13/2010  10:26 PM           228,184 XpsAnalyzer.exe
+05/13/2010  10:54 PM            83,784 xsd.exe
+04/19/2010  08:36 PM               156 xsd.exe.config
+05/13/2010  10:54 PM           100,168 xsltc.exe
+             174 File(s)     37,611,097 bytes
+               9 Dir(s)   7,175,049,216 bytes free
+
+c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin>signtool sign /v /f c:\Users\ta
+muilen\Desktop\tony_certificate.pfx /p howdyresoun7s C:\Users\tamuilen\Documents
+\Visual Studio 2008\Projects\simple_sudoku\Setup_sum_sudoku\Setup_sum_sudoku\Rel
+ease\Setup_sum_sudoku.msi
+The following certificate was selected:
+    Issued to: Muilenburg Anthony Ambrose
+    Issued by: COMODO Code Signing CA 2
+    Expires:   Wed Jun 26 16:59:59 2013
+    SHA1 hash: 1CA016AA840FD247686BE21C0B86241FF8B96894
+
+Done Adding Additional Store
+SignTool Error: File not found: C:\Users\tamuilen\Documents\Visual
+SignTool Error: File not found: Studio
+SignTool Error: File not found: 2008\Projects\simple_sudoku\Setup_sum_sudoku\Set
+up_sum_sudoku\Release\Setup_sum_sudoku.msi
+
+Number of files successfully Signed: 0
+Number of warnings: 0
+Number of errors: 3
+
+c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin>signtool sign /v /f c:\Users\ta
+muilen\Desktop\tony_certificate.pfx /p howdyresoun7s C:\Users\tamuilen\Desktop\s
+igned_sum_sudoku\Setup_sum_sudoku.msi
+The following certificate was selected:
+    Issued to: Muilenburg Anthony Ambrose
+    Issued by: COMODO Code Signing CA 2
+    Expires:   Wed Jun 26 16:59:59 2013
+    SHA1 hash: 1CA016AA840FD247686BE21C0B86241FF8B96894
+
+Done Adding Additional Store
+Successfully signed: C:\Users\tamuilen\Desktop\signed_sum_sudoku\Setup_sum_sudok
+u.msi
+
+Number of files successfully Signed: 1
+Number of warnings: 0
+Number of errors: 0
+
+c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin>signtool verify /v /pa C:\Users
+\tamuilen\Desktop\signed_sum_sudoku\Setup_sum_sudoku.msi
+
+Verifying: C:\Users\tamuilen\Desktop\signed_sum_sudoku\Setup_sum_sudoku.msi
+Hash of file (sha1): 4D2A0AB50697B54B86CEB1359FE9D13159FED390
+
+Signing Certificate Chain:
+    Issued to: AddTrust External CA Root
+    Issued by: AddTrust External CA Root
+    Expires:   Sat May 30 03:48:38 2020
+    SHA1 hash: 02FAF3E291435468607857694DF5E45B68851868
+
+        Issued to: UTN-USERFirst-Object
+        Issued by: AddTrust External CA Root
+        Expires:   Sat May 30 03:48:38 2020
+        SHA1 hash: 8AD5C9987E6F190BD6F5416E2DE44CCD641D8CDA
+
+            Issued to: COMODO Code Signing CA 2
+            Issued by: UTN-USERFirst-Object
+            Expires:   Sat May 30 03:48:38 2020
+            SHA1 hash: B64771392538D1EB7A9281998791C14AFD0C5035
+
+                Issued to: Muilenburg Anthony Ambrose
+                Issued by: COMODO Code Signing CA 2
+                Expires:   Wed Jun 26 16:59:59 2013
+                SHA1 hash: 1CA016AA840FD247686BE21C0B86241FF8B96894
+
+File is not timestamped.
+
+Successfully verified: C:\Users\tamuilen\Desktop\signed_sum_sudoku\Setup_sum_sud
+oku.msi
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin>signtool timestamp /t "http://t
+imestamp.comodoca.com/authenticode"  C:\Users\tamuilen\Desktop\signed_sum_sudoku
+\Setup_sum_sudoku.msi
+SignTool Error: Invalid Timestamp URL: "http://timestamp.comodoca.com/authentico
+de"
+
+c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin>signtool timestamp /t "http://t
+imestamp.comodoca.com/authenticode"  C:\Users\tamuilen\Desktop\signed_sum_sudoku
+\Setup_sum_sudoku.msi
+SignTool Error: Invalid Timestamp URL: "http://timestamp.comodoca.com/authentico
+de"
+
+c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin>signtool timestamp /t http://ti
+mestamp.comodoca.com/authenticode  C:\Users\tamuilen\Desktop\signed_sum_sudoku\S
+etup_sum_sudoku.msi
+SignTool Error: The specified timestamp server either could not be reached
+or returned an invalid response.
+        This may happen if you specify an RFC 3161 timestamp URL but used
+        the /t option or you specified a legacy Authenticode timestamp URL
+        but used the /tr option.
+SignTool Error: An error occurred while attempting to timestamp: C:\Users\tamuil
+en\Desktop\signed_sum_sudoku\Setup_sum_sudoku.msi
+
+Number of errors: 1
+
+c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin>signtool timestamp http://times
+tamp.comodoca.com/authenticode  C:\Users\tamuilen\Desktop\signed_sum_sudoku\Setu
+p_sum_sudoku.msi
+SignTool Error: A required parameter is missing.
+
+c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin>signtool /t timestamp http://ti
+mestamp.comodoca.com/authenticode  C:\Users\tamuilen\Desktop\signed_sum_sudoku\S
+etup_sum_sudoku.msi
+SignTool Error: Invalid command: /t
+Usage: signtool <command> [options]
+
+        Valid commands:
+                sign       --  Sign files using an embedded signature.
+                timestamp  --  Timestamp previously-signed files.
+                verify     --  Verify embedded or catalog signatures.
+                catdb      --  Modify a catalog database.
+
+For help on a specific command, enter "signtool <command> /?"
+
+c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin>signtool timestamp /t http://ti
+mestamp.comodoca.com/authenticode  C:\Users\tamuilen\Desktop\signed_sum_sudoku\S
+etup_sum_sudoku.msi
+SignTool Error: The specified timestamp server either could not be reached
+or returned an invalid response.
+        This may happen if you specify an RFC 3161 timestamp URL but used
+        the /t option or you specified a legacy Authenticode timestamp URL
+        but used the /tr option.
+SignTool Error: An error occurred while attempting to timestamp: C:\Users\tamuil
+en\Desktop\signed_sum_sudoku\Setup_sum_sudoku.msi
+
+Number of errors: 1
+
+c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin>signtool timestamp /t "http://t
+imestamp.comodoca.com/authenticode"  C:\Users\tamuilen\Desktop\signed_sum_sudoku
+\Setup_sum_sudoku.msi
+SignTool Error: Invalid Timestamp URL: "http://timestamp.comodoca.com/authentico
+de"
+
+c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin>signtool timestamp /t http://ti
+mestamp.comodoca.com/authenticode  C:\Users\tamuilen\Desktop\signed_sum_sudoku\S
+etup_sum_sudoku.msi
+Successfully timestamped: C:\Users\tamuilen\Desktop\signed_sum_sudoku\Setup_sum_
+sudoku.msi
+
+c:\Program Files\Microsoft SDKs\Windows\v7.1\Bin>	

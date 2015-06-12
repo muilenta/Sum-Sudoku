@@ -1,0 +1,60 @@
+
+Link:
+http://appdeveloper.intel.com/en-us/blog/2009/12/21/how-create-msi-installer-using-visual-studio-2008
+
+
+Submitted by BrianDevArch on 21 Dec 2009 06:13:29 
+in MSI Create Visual Studio 
+
+So you want to create an MSI installer...
+
+As we know from reading the Application Packaging Requirements Guide (http://appdeveloper.intel.com/en-us/article/packaging-requirements), we must provide our entry in a MSI format for Windows entries. I have received numerous requests for assistance in doing this. Here is a simple step by step to create your MSI installer.
+
+Step 1 Create a Setup & Deployment Project
+
+Let's create our new project. Right click on your solution in the Solution Explorer on the right hand side of your Visual Studio IDE and select Add -> New Project. From the list of project types, choose Other Project Types -> Setup and Deployment -> Setup Project.
+
+Step 2 Setup Properties
+
+We would like everyone to know who created this installer. Click on your new Setup and Deployment project in the solutions explorer. Now you will see in the Properties windows (Just below the Solutions Explorer usually), settings for Manufacturer, Author, and Title. Fill these in as appropriate.
+
+Step 3 Add Project Output & Content
+
+We want to include our project .exe and all required content files. Right click on your Setup and Deployment project in the Solution Explorer and choose View -> File System. Right click on the Application Folder node and choose Add -> Project Output. Choose Primary Output, this will include your .exe. Repeat this step and choose Content Files if your project has required content such as images, audio, etc. 
+
+* Special Note: In your Application project, ensure all required files are marked as Content. This can be done by selecting the file in the Solution Explorer and setting the Content property to True.
+
+We need to include our icon to use in our shortcut later. Right click on the Application Folder node and choose Add -> File. Browse to your icon file and click OK.
+
+Step 4 Create Shortcuts
+
+Another requirement is to include a shortcut to our application. Fortunately this is quite simple. With the Setup and Deployment File System tab still open, right click in the right hand pane to bring up a context menu. Choose Create New Shortcut. From this dialogue, navigate into the Application Folder, and choose Primary Output from "Project name" (Active). This will point the shortcut to your .exe. Click OK to accept this selection.
+
+Let's give that shortcut an icon as well. Click on the shortcut you just created in the right hand pane. From the Properties window you may select an icon. Click Browse, and navigate to the Application Folder, and select the icon you added to the File System back in Step 3.
+
+If you wish to have a shortcut in the users Start Menu, repeat the steps above, substituting the User's Programs Menu node instead of User's Desktop node.
+
+Step 5 C++ Runtime (CRT)
+
+This step is critical for validation. The ATOM SDK requires the C++ Runtime to execute. Fortunately our Setup and Deployment project makes this an easy addition. Right click on your Setup and Deployment project in the Solution Explorer and choose Add -> Merge Module. You want to add two merge modules, one for CRT Release, and one for CRT Debug. These are labeled:
+
+Microsoft_VC90_CRT_x86.msm
+Microsoft_VC90_DebugCRT_x86.msm
+
+* Special Note: If your application requires additional merge modules or runtime that is not automatically detected, this would be the time to add them
+
+Step 6 Build
+
+The easiest part of this exercise. Right click on your Setup and Deployment project and choose Build. If all went well, you will have a nicely packaged MSI in your output folder ready to upload to the App Store. 
+
+IMPORTANT DETAILS ON SILENT INSTALL REQUIREMENT
+
+One critical requirement in the validation process is that your MSI installed silently. You can test this by opening a command prompt, and executing your MSI using the /qn switch.
+
+Example: c:\MyApp.msi /qn
+
+If it installs without displaying any user interface, you have succeeded in this part of the validation
+
+* Note: The use of the /qn switch has not been confirmed by Intel yet. 
+
+If you have any problems please do not hesitate to ask. Best of luck!
